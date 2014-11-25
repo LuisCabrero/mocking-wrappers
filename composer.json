@@ -1,0 +1,15 @@
+{
+	"name": "mockingwrappers/mockingwrappers",
+	"description": "A collection of wrappers over standard PHP functions to allow dependecy injection-based mocking",
+	"authors": [{
+		"name": "Carlos Afonso"
+	}],
+	"require-dev": {
+		"phpunit/phpunit": "4.2.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"CarlosAfonso\\MockingWrappers\\": "src/"
+		}
+	}
+}
