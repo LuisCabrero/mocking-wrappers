@@ -1,6 +1,7 @@
 {
 	"name": "mockingwrappers/mockingwrappers",
 	"description": "A collection of wrappers over standard PHP functions to allow dependecy injection-based mocking",
+	"license": "MIT",
 	"authors": [{
 		"name": "Carlos Afonso"
 	}],
@@ -16,4 +17,4 @@
 			"Afonso\\MockingWrappers\\Tests\\": "tests/"
 		}
 	}
-
+}
