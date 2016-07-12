@@ -1,9 +1,11 @@
 <?php
 
-namespace CarlosAfonso\MockingWrappers;
+namespace Afonso\MockingWrappers;
 
-class TimeSource {
-	public function now() {
-		return time();
-	}
+class TimeSource
+{
+    public function now()
+    {
+        return time();
+    }
 }
